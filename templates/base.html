@@ -1,11 +1,54 @@
-<!DOCTYPE html>
+{% load staticfiles %}
+{% load static %}
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Craigs List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
     <body>
-        <h2>This is working!</h2>
+        <nav>
+            <div class="container nav-wrapper">
+                <a href="/" class="brand-logo">Craigs List</a>
+                <ul id="nav-mobile" class="right">
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1 style="text-align: center;">What do you want to search on this Website</h1>
+        <div class="row">
+            <div class="col s4">
+                <div class="center">
+                    <i class="large material-icons" style="color: #EE6E73">flash_on</i>
+                    <p>Fast Craigs List Web Scrapper</p>
+                    <p class="light center">Scrape away right here with a beautiful GUI</p>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="center">
+                    <i class="large material-icons" style="color: orange">camera</i>
+                    <p>Filter your searches</p>
+                    <p class="light center">We built this functionality to filter based on pricing.</p>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="center">
+                    <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
+                    <p>Best layout for Craigslist</p>
+                    <p class="light center">Built it with brains</p>
+                </div>
+            </div>
+        </div>
+        
+        {% block nav_bar %}
+
+        {% endblock %}
+        
     </body>
 
 </html>
