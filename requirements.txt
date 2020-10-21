@@ -90,7 +90,6 @@ python-dateutil==2.8.1
 pyttsx3==2.71
 pytz==2020.1
 PyWavelets==1.1.1
-pywin32==227
 pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==19.0.1
@@ -118,7 +117,6 @@ termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
 threadpoolctl==2.1.0
-tifffile==2020.10.1
 toml==0.10.1
 tornado==6.0.4
 traitlets==4.3.3
