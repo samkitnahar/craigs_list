@@ -27,7 +27,7 @@ SECRET_KEY = 'ku3s&($&i_hm_qcs)jansnn9jccokxaf!(n73yu_q1y_gi6*ob'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shielded-sea-40908.herokuapp.com']
 
 
 # Application definition
